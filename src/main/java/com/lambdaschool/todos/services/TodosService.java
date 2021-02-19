@@ -6,11 +6,6 @@ public interface TodosService
 {
     void markComplete(long todoid);
 
-//    Todos markComplete(
-//            long todoid,
-//            Todos todo
-//    );
-
     Todos save(long userid, String description);
 
 }

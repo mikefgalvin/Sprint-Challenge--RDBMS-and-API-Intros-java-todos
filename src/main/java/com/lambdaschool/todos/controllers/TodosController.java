@@ -38,15 +38,4 @@ public class TodosController
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-//    @PutMapping(value = "/todo/{todoid}", consumes = {"application/json"})
-//    public ResponseEntity<?> completeTodo(
-//            @PathVariable
-//                    long todoid,
-//            @Valid
-//            @RequestBody
-//                Todos newTodo)
-//    {
-//        todosService.markComplete(todoid, newTodo);
-//        return new ResponseEntity<>(HttpStatus.OK);
-//    }
 }
